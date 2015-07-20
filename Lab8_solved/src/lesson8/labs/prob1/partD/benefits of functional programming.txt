@@ -1,0 +1,1 @@
+Functional programming enables Java programs to be more readable, more thread safe, more parallelizable, more maintainable while keeping the benefits of object oriented programming.

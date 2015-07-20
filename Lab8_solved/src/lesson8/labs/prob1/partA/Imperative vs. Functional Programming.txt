@@ -1,0 +1,14 @@
+								Imperative approach 						Functional approach
+
+Programmer focus		How to perform tasks (algorithms) and how to    What information is desired and what 
+						track changes in state. 						transformations are required.
+					
+Order of execution		Important.										Low importance.
+
+Primary flow 			Loops, conditionals, and function 				Function calls, including recursion.
+control					(method) calls.
+
+Primary manipulation	Instances of structures or classes.				Functions as first-class objects and 
+unit																	data collections.
+
+

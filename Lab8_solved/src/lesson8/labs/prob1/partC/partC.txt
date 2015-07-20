@@ -1,0 +1,11 @@
+interface Comparator<T> { 
+   int compare(T o1, T o2);
+}
+
+Interface Comparator is called a functional interface because it has just one (abstract) method.
+
+An implementation of a functional interface is called a functor.
+
+A closure is a functor embedded inside another class, that is capable of remembering the state 
+of its enclosing object. In Java 7, instances of member, local, and anonymous inner classes are
+(essentially) closures, since they have full access to their enclosing object’s state.

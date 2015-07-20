@@ -1,0 +1,3 @@
+i) no parameters, two free variable s and t
+ii) two parameters u and v, two free variables a and b
+iii) two parameters s and t, one free variable ignoreCase 
