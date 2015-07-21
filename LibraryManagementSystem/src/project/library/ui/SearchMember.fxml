@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="615.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="project.library.business.LibraryMemberController">
+  <children>
+    <AnchorPane layoutX="0.0" layoutY="31.0" prefHeight="345.0" prefWidth="600.0">
+      <children>
+        <Label contentDisplay="CENTER" layoutX="131.0" layoutY="16.0" prefHeight="24.0" prefWidth="401.0" text="Libraray Management System">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+        <Button layoutX="171.0" layoutY="76.0" mnemonicParsing="false" onAction="#addPersonInfo" prefHeight="24.0" prefWidth="137.0" text="Add Member" />
+        <Button fx:id="search" layoutX="171.0" layoutY="115.0" mnemonicParsing="false" onAction="#searchPersonInfo" prefHeight="24.0" prefWidth="137.0" text="Search Member" />
+        <fx:include source="LibraryPublication.fxml" layoutX="166.0" layoutY="143.0" prefHeight="49.0" prefWidth="158.0" />
+      </children>
+    </AnchorPane>
+  </children>
+</AnchorPane>
